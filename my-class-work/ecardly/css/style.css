@@ -1,0 +1,29 @@
+body {
+	background: url(../images/background.jpg);
+}
+.logo {
+	text-align:center;
+}
+.infoboxes{
+	background-color:white;
+	width:760px;
+	padding:20px;
+	margin:0px auto;
+}
+.infoboxes h4{
+	text-align: center;
+}
+.userposting{
+	border-top: dotted black;
+	border-bottom:solid;
+}
+.user {
+	color:red;
+	font-weight: bold;
+}
+.navbar{
+	display: inline;
+}
+.navbar ul{
+	list-style-type:none;
+}

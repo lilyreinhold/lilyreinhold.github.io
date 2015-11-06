@@ -8,7 +8,7 @@ body {
 	margin-right:auto;
 	max-height:50%; 
 	max-width:50%; }
-#navbar {
+.navbar {
   text-align:center;
   width: 300px;
   margin: 0 auto;
