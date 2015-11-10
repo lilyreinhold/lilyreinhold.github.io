@@ -1,4 +1,19 @@
 body {
 	background: white
-	color: black;
+}
+h1,h2,h4,h5{
+	font-family:arial;
+}
+h3{
+	font-family:Times;
+}
+header{
+	display:block;
+	border-top:bold;
+}
+header ul{
+	list-style-type: none;
+}
+footer ul{
+	list-style-type:none;
 }
