@@ -4,20 +4,23 @@ body{
 #container{
 	width:720px;
 	padding:54px;
-	border-left:solid,#dddddd;
+	margin:20px;
+	border-left:solid 6px #dddddd;
 }
 .blogposts{
 	border-bottom: solid;
 	border-spacing:1.5px;
+	width:720px;
 }
 .blogposts p{
 	text-align:left;
 	margin-top:25px;
 	margin-bottom:50px;
+	width:100%;
 }
 .blogposts img{
 	display:inline;
-	width:720px;
+	width:100%
 }
 h1{
 	font-family:"lato";
@@ -50,10 +53,12 @@ h3,h4{
 .continues a:hover{
 	color:#aa0000;
 }
-.navbar ul, li{
+.navbar ul{
+	padding:0px;
+}
+.navbar li{
 	list-style-type:none;
 	display:inline-block;
-	margin:0px;
 }
 .navbar li a{
 	color:#dddddd;
@@ -61,12 +66,16 @@ h3,h4{
 .navbar li a:hover{
 	color:black;
 }
-.navbartwo ul, li{
+.navbartwo ul{
+	padding:0px;
+}
+.navbartwo li{
 	list-style-type:none;
 	display:inline-block;
 }
 .navbartwo li a{
 	color:#DD0000;
+	text-decoration:none;
 }
 .navbartwo li a:hover{
 	color:black;

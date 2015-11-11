@@ -1,0 +1,27 @@
+.container{
+	width:1200px;
+	margin:0 auto;
+}
+header{
+	background:red;
+}
+section{
+	background:yellow;
+	height:250px;
+	width:600px;
+	float:left;
+}
+article{
+	background:green;
+	width:400px;
+	float:right;
+}
+footer{
+	background:purple;
+}
+.height{
+	height:100px;
+}
+.clear{
+	clear:both;
+}

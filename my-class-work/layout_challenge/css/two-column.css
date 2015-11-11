@@ -1,0 +1,25 @@
+
+.container{
+	width:1000px;
+}
+header {
+	background:red;
+	height:100px;	
+}
+main {
+	background:yellow;
+	height:250px;
+	width:700px;
+	float:left;
+}
+aside {
+	background:green;
+	height:250px;
+	width:300px;
+	float:right;
+}
+footer{
+	background:blue;
+	height:100px;
+	clear:both;
+}
