@@ -3,10 +3,12 @@
 <head>
 <title>Lily Reinhold Resume</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<!-- h1 should be within body, not head, since it is appearing on page -->
 <h1>Lily's Resume</h1>
 </head>
 <body>
 <img class="displayed" src="profilepicture2.jpg" alt="Profile Picture">
+<!-- could use semantic HTML and make this a nav instead of a div -->
 <div class="navbar">
 	<ul>
 		<li><a href="index.html"><h3>Return to Homepage</a></h3></li>
@@ -20,12 +22,14 @@
 		<ul>
 			<li><h4>Children's Fine Art Studio Intern</h4></li> 
 				<ul>
+				<!-- Ideally would not have this many h5's on a page, instead giving a class to set styles, but for week 1 totally cool -->
 				<li><h5>Over the course of nine weeks I aided different arts summer camps.</h5></li>
 				<li><h5>Along with a colleague, I oversaw campers check-in and check-out.</h5></li>
 				<li><h5>I helped both inside and outside the classroom; I determined and monitored break times for campers, and helped various classrooms when needed.</h5></li>
 				<li><h5>I also helped the foundation office with various projects, such as taking and organizing photographs of campers.</h5></li>
 				</ul>
 			<li><h4>Sales Associate</h4></li>
+				<!-- Well done using nested ul's and li's! Semantically since you only have one at the top level it seems more like a heading then a list so the markup could maybe reflect that having it be an h2 or whatever heading outside of the list -->
 				<ul>
 					<li><h5>I worked weekend shifts and performed opening and closing procedures.</h5></li>
 					<li><h5>I researched artists and products sold within the gallery shop.</h5></li> 
@@ -39,9 +43,11 @@
 		</ul>
 	</ul>
 </div>
+<!-- standard css syntax is to use a dash so art-experience . totally the same functionally. just convention. -->
 <div class="artexperience">
 <h2>Cool Art Experiences</h2>
 	<ul>
+	<!-- nested elements should be indented from their parents -->
 	<li><h3>Skidmore College: Pro Arts Club Leader</h3></li>
 			<ul>
 				<li><h5>I was a co-president from fall 2013-spring 2015.</h5></li>
@@ -84,6 +90,7 @@
 			</ul>
 	</ul>
 </div>
+<!-- are these classes being used in css? if not can eliminate -->
 <div class="specialskills">
 <h2>Special Skills</h2>
 	<ul>
