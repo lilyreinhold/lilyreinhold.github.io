@@ -1,0 +1,47 @@
+.container{
+	margin:0px auto;
+	width: 1200px;
+}
+header{
+	background-color:red;
+	overflow:hidden;
+	padding:20px;
+}
+.logo{
+	height:80px;
+	width:200px;
+	background-color:yellow;
+	float:left;
+}
+nav {
+	float:right;
+	background-color:yellow;
+	width:500px;
+	margin:20px;
+}
+nav a{
+	display:inline-block;
+	height:40px;
+	width:100px;
+	background-color:blue;
+}
+main {
+	margin-top:20px;
+	height:250px;
+	background-color:blue;
+	margin-bottom:20px;
+}
+article{
+	background-color:green;
+	height:100px;
+	width:400px;
+	float:left;
+}
+footer{
+	background-color:orange;
+	height:100px;
+	margin-top:20px;
+}
+.clear {
+	clear:both;
+}
