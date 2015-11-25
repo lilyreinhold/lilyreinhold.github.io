@@ -1,28 +1,35 @@
-/*spacing a bit inconsistent. should be:
-
-h1, h2, h4, h5 {
-	font-family: arial;
-}
-
-*/
-
-
 body {
-	background: white
-}
+	background: white; }
 h1,h2,h4,h5{
-	font-family:arial;
+	font-family:arial; }
+h1{
+	text-align:center;
 }
 h3{
-	font-family:Times;
-}
-header{
-	display:block;
-	border-top:bold;
-}
+	font-family:Times; }
 header ul{
-	list-style-type: none;
-}
+	list-style-type:none; 
+	text-align:center;}
+header li{
+	display:inline-block;
+	margin:0 auto; }
 footer ul{
+	list-style-type:none; 
+	text-align:center;}
+footer li{
 	list-style-type:none;
-}
+	font-family:arial;
+	text-decoration:bold,underline;
+	display:inline-block;
+	margin: 0 auto;}
+#container{
+	width:1000px;
+	padding:50px;
+	margin:50px;
+	border-top:solid black 5px;
+	border-bottom:solid black 5px;}
+.about-artist{
+	width:100%;
+	padding:25px;
+	border-top:solid black 1px;
+	border-bottom:solid 1px;}

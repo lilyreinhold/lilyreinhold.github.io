@@ -26,29 +26,21 @@ body{
 }
 
 
-/*Some good combining of styles below, could go even further like: 
-
 h1, h2, h3, h4 {
 	font-family:"lato";
-	line-height:1.5px;	
-}*/
+	line-height:1.5px;
+}
 
 h1{
-	font-family:"lato";
-	line-height:1.5px;
 	font-size:40px;
 	color:#444444;
 	text-decoration:bold;
 }
 h2{
-	font-family:"lato";
-	line-height:1.5px;
 	font-size:20px;
 	color:black;
 }
 h3,h4{
-	font-family:"lato";
-	line-height:1.5px;
 	font:15px;
 	color:#444444;
 }

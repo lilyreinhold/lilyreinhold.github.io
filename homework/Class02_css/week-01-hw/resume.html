@@ -3,140 +3,126 @@
 <head>
 <title>Lily Reinhold Resume</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<!-- h1 should be within body, not head, since it is appearing on page -->
-<h1>Lily's Resume</h1>
 </head>
 <body>
-<img class="displayed" src="profilepicture2.jpg" alt="Profile Picture">
-<!-- could use semantic HTML and make this a nav instead of a div -->
-<div class="navbar">
+<h1>Lily's Resume</h1>
+<img class="profile-photo" src="profilepicture2.jpg" alt="Profile Picture">
+<nav>
 	<ul>
 		<li><a href="index.html"><h3>Return to Homepage</a></h3></li>
 		<li><a href="http://www.lilyreinhold.photography"><h3>Portfolio Website</a></h3></li>
 	</ul>
-</div>
-<div class="work">
+</nav>
+<div class="list-style">
 <h2>Work Experience</h2>
+	<h3>Palo Alto Art Center</h3>
 	<ul>
-		<li><h3>Palo Alto Art Center</h3></li>
-		<ul>
-			<li><h4>Children's Fine Art Studio Intern</h4></li> 
-				<ul>
-				<!-- Ideally would not have this many h5's on a page, instead giving a class to set styles, but for week 1 totally cool -->
-				<li><h5>Over the course of nine weeks I aided different arts summer camps.</h5></li>
-				<li><h5>Along with a colleague, I oversaw campers check-in and check-out.</h5></li>
-				<li><h5>I helped both inside and outside the classroom; I determined and monitored break times for campers, and helped various classrooms when needed.</h5></li>
-				<li><h5>I also helped the foundation office with various projects, such as taking and organizing photographs of campers.</h5></li>
-				</ul>
-			<li><h4>Sales Associate</h4></li>
-				<!-- Well done using nested ul's and li's! Semantically since you only have one at the top level it seems more like a heading then a list so the markup could maybe reflect that having it be an h2 or whatever heading outside of the list -->
-				<ul>
-					<li><h5>I worked weekend shifts and performed opening and closing procedures.</h5></li>
-					<li><h5>I researched artists and products sold within the gallery shop.</h5></li> 
-					<li><h5>I sold retail art and products to various consumers.</h5></li>
-				</ul>
-		</ul>
-		<li><h3>Emack and Bolios</h3></li>
-		<ul>
-			<li><h4>Ice Cream Scooper</h4>
-				<h5>Served customers ice cream, worked behind the counter, delivered ice cream, performed closing store duties.</h5>
-		</ul>
+		<li><h4>Children's Fine Art Studio Intern</h4></li> 
+			<ul>
+				<li>Over the course of nine weeks I aided different arts summer camps.</li>
+				<li>Along with a colleague, I oversaw campers check-in and check-out.</li>
+				<li>I helped both inside and outside the classroom; I determined and monitored break times for campers, and helped various classrooms when needed.</li>
+				<li>I also helped the foundation office with various projects, such as taking and organizing photographs of campers.</li>
+			</ul>
+		<h4>Sales Associate</h4>
+			<ul>
+				<li>I worked weekend shifts and performed opening and closing procedures.</li>
+				<li>I researched artists and products sold within the gallery shop.</li> 
+				<li>I sold retail art and products to various consumers.</li>
+			</ul>
+	</ul>
+	<h3>Emack and Bolios</h3>
+	<ul>
+		<li><h4>Ice Cream Scooper</h4>
+			<p>Served customers ice cream, worked behind the counter, delivered ice cream, performed closing store duties.</p>
 	</ul>
 </div>
-<!-- standard css syntax is to use a dash so art-experience . totally the same functionally. just convention. -->
-<div class="artexperience">
-<h2>Cool Art Experiences</h2>
-	<ul>
-	<!-- nested elements should be indented from their parents -->
-	<li><h3>Skidmore College: Pro Arts Club Leader</h3></li>
-			<ul>
-				<li><h5>I was a co-president from fall 2013-spring 2015.</h5></li>
-				<li><h5>I was a treasurer from spring 2012-spring 2013.</h5></li>
-				<li><h5>Pro-Arts is Skidmore's official fine arts club! It is the connection between studio artists and the rest of the college.</h5></li>
-				<li><h5>I collaboratd with executive board members and helped organize club activities including weekly Open Model Sessions with live model.</h5></li>
-			</ul>
-		<li><h3>Tang Party (April 2014)</h3></li>
-			<ul>
-				<li><h5>I curated displays for the Tang Party.</h5></li>
-				<li><h5>I helped select which displays would be accepted.</h5></li>
-				<li><h5>I helped artists set up displays the night of the event.</h5></li>
-				<li><h5>I was in contact with the Tang Staff and SGA staff regarding party logistics and organization.</h5></li>
-			</ul>
-		<li><h3>Non Si Tratta Di Luce (It Is Not Light) (July 2014)</h3></li>
-			<ul>
-				<li><h5>Together with another student I curated a one-day photographic exhibit of a four week photographic class.</h5></li>
-				<li><h5>I mounted the displayed photos.</h5></li>  
-				<li><h5>Each photo was individually mounted onto its own piece of acetate; the photograph was on one side and the artist statement on the opposite side.</h5></li>
-				<li><h5>I helped hang the photographs in the gallery.</h5></li>
-				<li><h5>I helped figure out the logistical details of hanging the show.  Photographs were individually hung at different heights and angles across the gallery.</h5></li>
-			</ul>
-		<li><h3>Tang Party (April 2013)</h3></li>
-			<ul>
-				<li><h5>I collaborated with a friend to produce a drawing installation.</h5></li>
-				<li><h5>We created the drawing and frame together.</h5></li>
-				<li><h5>We suspended and anchored the pieces from a tree and set up appropriate lighting.</h5></li>
 
-			</ul>
-		<li><h3>I Was a Teenage Girl, Apparently (Summer 2014)</h3></li>
+<div class="list-style">
+<h2>Cool Art Experiences</h2>
+	<h3>Skidmore College: Pro Arts Club Leader</h3>
 			<ul>
-				<li><h5>I created small drawings for use in an animated short movie by Nina Frenkel and Lyn Eliott.</h5></li>
+				<li>I was a co-president from fall 2013-spring 2015.</li>
+				<li>I was a treasurer from spring 2012-spring 2013.</li>
+				<li>Pro-Arts is Skidmore's official fine arts club! It is the connection between studio artists and the rest of the college.</li>
+				<li>I collaboratd with executive board members and helped organize club activities including weekly Open Model Sessions with live model.</li>
 			</ul>
-			
-		<li><h3>Allegro (Fall 2013-Spring2014)</h3></li>
-			<ul>
-				<li><h5>This was supported by Skidmore College and the National Museum of Public Art Dance Program.</h5></li>
-				<li><h5>I collaborated with Pro-Arts Club members to produce drawings, stencils, and design for a 5ft fiberglass slipper.</h5></li>
-				<li><h5>The finished slipper is on display outside the dance theater at Skidmore College.</h5></li>
-			</ul>
-	</ul>
+	<h3>Tang Party (April 2014)</h3>
+		<ul>
+			<li>I curated displays for the Tang Party.</li>
+			<li>I helped select which displays would be accepted.</li>
+			<li>I helped artists set up displays the night of the event.</li>
+			<li>I was in contact with the Tang Staff and SGA staff regarding party logistics and organization.</li>
+		</ul>
+	<h3>Non Si Tratta Di Luce (It Is Not Light) (July 2014)</h3>
+		<ul>
+			<li>Together with another student I curated a one-day photographic exhibit of a four week photographic class.</li>
+			<li>I mounted the displayed photos.</li>  
+			<li>Each photo was individually mounted onto its own piece of acetate; the photograph was on one side and the artist statement on the opposite side.</li>
+			<li>I helped hang the photographs in the gallery.</li>
+			<li>I helped figure out the logistical details of hanging the show.  Photographs were individually hung at different heights and angles across the gallery.</li>
+		</ul>
+	<h3>Tang Party (April 2013)</h3>
+		<ul>
+			<li>I collaborated with a friend to produce a drawing installation.</li>
+			<li>We created the drawing and frame together.</li>
+			<li>We suspended and anchored the pieces from a tree and set up appropriate lighting.</li>
+
+		</ul>
+	<h3>I Was a Teenage Girl, Apparently (Summer 2014)</h3>
+		<ul>
+			<li>I created small drawings for use in an animated short movie by Nina Frenkel and Lyn Eliott.</li>
+		</ul>
+		
+	<h3>Allegro (Fall 2013-Spring2014)</h3>
+		<ul>
+			<li>This was supported by Skidmore College and the National Museum of Public Art Dance Program.</li>
+			<li> collaborated with Pro-Arts Club members to produce drawings, stencils, and design for a 5ft fiberglass slipper.</li>
+			<li>The finished slipper is on display outside the dance theater at Skidmore College.</li>
+		</ul>
 </div>
-<!-- are these classes being used in css? if not can eliminate -->
-<div class="specialskills">
+<div class="list-style">
 <h2>Special Skills</h2>
-	<ul>
-		<li><h3>Trained Mediator</h3></li>
-			<ul>
-				<li><h5>New York State certified parent/teen mediator.</h5></li>
-				<li><h5>I was certified after attending a mediation course taught by Duke Fisher and David Karp at Skidmore College.</h5></li>
-			</ul>
-		<li><h3>Computer Skills</h3></li>
-			<ul>
-				<li><h5>Microsoft Office</h5></li>
-				<li><h5>Adobe Creative Suite</h5></li>
-				<li><h5>Autodesk: Maya</h5></li>
-			</ul>
-	</ul>
+	<h3>Trained Mediator</h3>
+		<ul>
+			<li>New York State certified parent/teen mediator.</li>
+			<li>I was certified after attending a mediation course taught by Duke Fisher and David Karp at Skidmore College.</li>
+		</ul>
+	<h3>Computer Skills</h3>
+		<ul>
+			<li>Microsoft Office</li>
+			<li>Adobe Creative Suite</li>
+			<li>Autodesk: Maya</li>
+		</ul>
 </div>
-<div class="education">
+<div class="list-style">
 <h2>Education</h2>
-	<ul>
-		<li><h3>Skidmore College</h3></li>
+		<h3>Skidmore College</h3>
 			<ul>
-				<li><h5>Bachelor of Science in Studio Art</h5></li>
-				<li><h5>Saratoga Srings, NY (May 2015)</h5></li>
+				<li>Bachelor of Science in Studio Art</li>
+				<li>Saratoga Srings, NY (May 2015)</li>
 			</ul>
-		<li><h3>Studio Art Centers International (SACI)</h3></li>
+		<h3>Studio Art Centers International (SACI)</h3>
 			<ul>
-				<li><h5>Course work: drawing, photography, serigraphy, and renaissance art history.</h5></li> 
-				<li><h5>Florence, Italy (Summer 2014)</h5></li>
+				<li>Course work: drawing, photography, serigraphy, and renaissance art history.</li> 
+				<li>Florence, Italy (Summer 2014)</li>
 			</ul>
-		<li><h3>The International Center of Photography</h3></li>
+		<h3>The International Center of Photography</h3>
 			<ul>
-				<li><h5>Course work: "Believing is Seeing".</h5></li>
-				<li><h5>New York, NY (Summer 2013)</h5></li>
+				<li>Course work: "Believing is Seeing".</li>
+				<li>New York, NY (Summer 2013)</li>
 			</ul>
-		<li><h3>Trevor Day School</h3></li>
+		<h3>Trevor Day School</h3>
 			<ul>
-				<li><h5>Graduated with a high school diploma.</h5></li>
-				<li><h5>New York, NY (June 2011)</h5></li>
+				<li>Graduated with a high school diploma.</li>
+				<li>New York, NY (June 2011)</li>
 			</ul>
-		<li><h3>Parsons, The New School for Design</h3></li>
+		<h3>Parsons, The New School for Design</h3>
 			<ul>
-				<li><h5>Product Design Summer Intensive Program</h5></li>
-				<li><h5>Learned product design and developed a sustainable coffee cup.</h5></li>
-				<li><h5>New York, NY (Summer 2010)</h5></li>
+				<li>Product Design Summer Intensive Program</li>
+				<li>Learned product design and developed a sustainable coffee cup.</li>
+				<li>New York, NY (Summer 2010)</li>
 			</ul>
-	</ul>
 </div>
 </body>
 </html>
