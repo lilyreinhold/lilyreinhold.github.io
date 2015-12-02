@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	var total = 0;
-}
 //value reassignment
 	$("#a10").click(function(){
 		total += 10;
@@ -29,11 +28,13 @@ $(document).ready(function(){
 	});
 	$("#red").click(function(){
 		$("#out").css("background-color", "red");
-	)};
+	});
 	$("#blue").click(function (){
-		$("#out").css("background-color"), "blue");
+		$("#out").css("background-color", "blue");
 	});
 	$("#out").click(function (){
 		$("#out").css("background-color", "white")
 	});
 });
+
+//try to use the concept of this
