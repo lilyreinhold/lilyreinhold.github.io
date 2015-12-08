@@ -1,0 +1,38 @@
+.container{
+	width:1200px;
+	height:auto;
+	font-family: 'Amatic SC', cursive;}
+#page-header{
+	overflow:hidden;}
+h1{
+	font-size:4em;}
+.cartoon{
+	width:100%;
+	height:150px;
+	font-size:1em;
+}
+.clear{
+	overflow:auto;
+}
+nav{
+	display:inline-block;
+	width:100%;
+	height:100px;
+	margin:25px;
+}
+nav ul{
+	list-style-type:none;}
+nav li{
+	float:left;}
+.blurb{
+	float:center;
+	padding:25px;
+	border:50px;
+	margin:50px;
+	font-size:3em;}
+footer{
+	float:right;
+	padding:15px;
+	margin:5px;
+	font-size:3em;
+	text-decoration:none;}

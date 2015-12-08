@@ -1,0 +1,36 @@
+.container{
+	width:1200px;
+	padding:25px;
+}
+header{
+	background:red;
+	height:100px;
+	margin-bottom:25px;
+}
+section{
+	background:green;
+	float: left;
+	height:400px;
+	width:200px;
+	margin-right:50px;}
+main{
+	background:purple;
+	display:inline-block;
+	height:400px;
+	width:750px;
+}
+aside{
+	background:yellow;
+	float:right;
+	height:400px;
+	width:150px;
+	margin-left:50px;
+}
+.clear{
+	overflow:clear;
+}
+footer{
+	background:blue;
+	height:100px;
+	margin-top:50px;
+}
