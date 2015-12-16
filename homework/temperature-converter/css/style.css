@@ -2,10 +2,16 @@
 	width:1000px;
 }
 h1{
-	text-align: center;
-}
-section{
+	text-align: center;}
+.box{
+	display:inline-block;
 	float:left;
 	padding:10px;
 	margin:10px;
-}
+	border:10px;}
+.output{
+	display:inline-block;
+	float:right;
+	padding:10px;
+	margin:100px;
+	border:10px;}

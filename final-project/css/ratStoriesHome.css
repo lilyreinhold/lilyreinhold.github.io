@@ -23,7 +23,7 @@ nav{
 nav ul{
 	list-style-type:none;}
 nav li{
-	float:left;}
+	float:right;}
 .blurb{
 	float:center;
 	padding:25px;
