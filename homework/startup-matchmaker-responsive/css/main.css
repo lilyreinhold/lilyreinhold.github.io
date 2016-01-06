@@ -1,18 +1,17 @@
 body{
-	font-family: "Source Sans Pro";
-	font-size: 14px;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 20px;
 	line-height: 1.5;}
 h1{
-	color: yellow;
-	font-family: "Merriweather", serif;
-	font-size: 2em;
-	line-height: 1;}
+	font-size:2em;
+	line-height:1;}
+
 h2{
 	font-size: 1.5em;
 	font-weight: bold;}
 h3{
 	font-family: 'Merriweather',serif;
-	font-size: 1em;
+	font-size: 1.25em;
 	font-weight: bold;}
 p{
 	margin:0 0 1.5em 0;}
@@ -20,14 +19,18 @@ p{
 	font-family: 'Oswald',sans-serif;
 	text-decoration: none;
 	text-transform: uppercase;
+	letter-spacing:1px;
 	font-weight: bold;
 	background: yellow;
 	color: black;
 	display: block;
 	text-align: center;
-	padding: 1%;
+	padding: 2%;
 	box-shadow: inset 0 -3px 0 rgba(0,0,0,.2);
 	border-radius: 5px;}
+.button:hover{
+	box-shadow:inset 0 3px 0 rgba(0,0,0,.2);
+	margin-top:10px;}
 #page-header{
 	background: black;
 	color: white;
@@ -43,111 +46,111 @@ p{
 	font-family: 'Merriweather', serif;
 	font-size: 1.5em;
 	padding:1% 1%;
-	margin: 1%;
-	vertical-align: center;}
-#page-header .large-nav{
-	float: right;
-	margin: 1em;
-	padding:1% 1%;
-	vertical-align: center;}
-#page-header .large-nav ul{
-	list-style-type: none;}
-#page-header .large-nav li{
-	float:left;}
-#page-header .large-nav a{
-	display: inline-block;
-	padding: 2em 1em;}
-#page-header .large-nav li a:hover{
+	margin: 20px 0 0 0;}
+#page-header nav{
+	float:right;
+	width:50%;
+	text-align:right;
+	padding:20px 0;}
+#page-header nav #innernav a{
+	padding:0 .3em;}
+#page-header nav #innernav a:hover{
 	color:yellow;}
-#page-header .large-nav li.active a{
-	background: #666;
+#page-header nav #innernav strong{
+	font-family: "Oswald", sans-serif;
+	text-transform:uppercase;}
+#page-header nav a#hamburger{
+	display:none;
+	padding:15px;
 }
-#page-header .large-nav strong{
-	font-family:'Oswald',sans-serif;
-	text-transform: uppercase;}
-#page-header .small-nav{
-	/*	display:; */
-}
-#page-header .small-nav a {
-	display:block;
-	background-color: rgb(222, 222,222);
-	text-transform: uppercase;
-	text-align:center;
-	font-size: 1em;
-	padding: 1% 0;
-	color:black;
-	text-decoration:none;
-}
-
-#page-header .small-nav 
-
-#page-header 
 .tagline{
 	font-family: 'Merriweather',serif;
 	text-align: center;
 	margin:0;
-	padding: 1em 3%;
-	font-size: 1em;
-	line-height: 1em;
+	padding: 20px 3%;
+	font-size: 1.25em;
+	line-height: 25px;
 	font-style: italic;
 	background: #C6C6C6;
 	border-top: 1px solid #AAA;}
 .banner{
 	background: url(../images/coworking.jpg) center center no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	overflow: hidden;
 	padding: 3%;
 	box-shadow: inset 0 0 5px rgba(0, 0, 0,.75);}
-.textbox{
-	background: rgba(255, 255, 255, .8);
-	width: 35%;
-	margin: 0 auto;
-	padding: 5%;
-	float: right;}
-.get-involved{
-	background: #EEE;
-	background: white;
-	overflow: hidden;
-	padding: 2% 0;}
 .blurb{
+	background: rgba(255,255,0,0.3);;
+	width:25%;
+	margin:0 auto;
+	padding:4%;
+	float:right;}
+.callouts {
+	background: #EEE;
+	overflow:hidden;
+	padding: 2% 0;}
+.callout{
 	float:left;
-	width:27%;
+	width:35%;
 	padding:2% 3%;
-	box-shadow: inset -1px 0 0 rgba(0,0,0,.15);}
-.blurb:last-child{
-	box-shadow:none;
-}
-.blurb .button{
+	box-sizing: border-box;
+	border-right: 1px solid rgb(200,200,200);}
+.callout:last-child{
+	border:none;}
+.callout .button{
 	background: #C6C6C6;}
 footer{
 	background: black;
-	color:white;
+	color: white;
 	padding: 2% 3%;}
+@media only screen and (max-width:950px){
+	#page-header nav #innernav a{
+		font-size:.75em;
+		padding: 0 .25em;
+	}
+}
 
-@media (max-width: 900px) {
-
-    header nav a {
-    display: none;    
-    }
-
-    #icon {
-        display: block;
-    }
-
-    #small-nav {
-        display: none;
-    }
-
-    #small-nav a {
-        display: block;
-        padding: 1em;
-        background-color: black;
-        color: white;
-        border: 1px solid grey;
-        text-decoration: none;
-    }
-
-    #small-nav a:hover {
-        background-color: grey;
-    }
+@media only screen and (max-width:750px){
+	body{
+		font-size:.75em;}
+	#page-header h1{
+		font-size:1.5em;
+		margin-bottom:.75em;}
+	.tagline,.blurb p{
+		display:none;}
+	.blurb{
+		width:50%;}
+	.callout{
+		width:auto;
+		float:none;
+		border:none;}
+	#page-header h1{
+		position: relative;
+		z-index:1;}
+	#page-header nav{
+		width:100%;}
+	#page-header nav a#hamburger{
+		display:block;
+		text-align:right;
+		width:100%;
+		right:0;
+		top:0;
+		position:absolute;}
+	#page-header nav #innernav{
+		position:absolute;
+		width:90%;
+		background-color:#666666;}
+	#page-header nav #innernav a{
+		text-align:center;
+		width:auto;
+		padding:1em;
+		border-bottom:solid 1px #ffffff;
+		border-right:none;
+		float:none;
+		display:none;}
+	#page-header nav #innernav strong{
+		font-family: "Source Sans Pro", sans-serif;
+		text-transform: capitalize;}
+	#page-header nav:hover #innernav a{
+		display:block;}
 }
