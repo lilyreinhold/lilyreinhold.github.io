@@ -1,3 +1,5 @@
+/*Woah very clean and neat CSS. Impressed!*/
+
 body{
 	background:white;
 }
@@ -22,6 +24,15 @@ body{
 	display:inline;
 	width:100%
 }
+
+
+/*Some good combining of styles below, could go even further like: 
+
+h1, h2, h3, h4 {
+	font-family:"lato";
+	line-height:1.5px;	
+}*/
+
 h1{
 	font-family:"lato";
 	line-height:1.5px;
