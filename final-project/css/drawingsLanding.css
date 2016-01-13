@@ -16,26 +16,24 @@ article {
 	font-size:2em;
 	background-color: white;
 	float: left;
-	width: 44%;
-	padding: 1%;}
+	width: 40%;
+	padding: 1%;
+	height:782px;}
 article p{
-	margin-left: 5%;
-	margin-right:5%;
+	margin-left: 2%;
+	margin-right:2%;
 	text-align:justify;
-	width:100%;
-}
+	width:100%;}
 article h1 {
 	font-size:2em;
 	padding: 5px;}
 article img{
 	padding:5% 10%;
 	margin:1%;
-	width:55%;
-
-}
+	border-bottom:3%;
+	width:300px;}
 article:last-child{
-	overflow:hidden;
-}
+	overflow:hidden;}
 footer{
 	float:right;
 	padding:15px;
@@ -46,7 +44,7 @@ nav{
 	display:block;
 	width:100%;
 	float:right;
-	font-size:1.75em;}
+	font-size:1.25em;}
 nav ul{
 	list-style-type:none;}
 nav li{
@@ -54,5 +52,4 @@ nav li{
 	padding:5px;
 	margin:10px;}
 nav li a{
-	text-decoration:none;
-}
+	text-decoration:none;}

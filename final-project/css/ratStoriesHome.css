@@ -8,9 +8,10 @@
 h1{
 	font-size:4em;}
 .cartoon{
-	width:100%;
-	height:150px;
+	width:800px;
 	font-size:1em;
+	height:240px;
+	margin:0 auto;
 }
 .clear{
 	overflow:auto;
@@ -39,4 +40,7 @@ nav li{
 	margin:10px;}
 nav li a{
 	text-decoration:none;
+}
+#rat{
+	position:relative;
 }

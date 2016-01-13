@@ -1,40 +1,44 @@
 .container{
 	width:100%;
 	margin:0 auto;
-	font-family: 'Amatic SC', cursive;}
+	font-family: 'Amatic SC', cursive;
+	font-size:20px;}
 #page-header{
 	overflow:hidden;
 	padding:5px 25px;}
 h1{
-	font-size:4em;}
+	font-size:2em;}
 .storybox{
 	display:block;
 	width:80%;
-	overflow: hidden;}
+	overflow: hidden;
+	font-size:1.25em;
+	margin-left:10%;}
 .storybox p{
 	display:inline-block;
+	float:right;
 	width:75%;
 	text-align: justify;
-	padding:15px;
-	margin:15px;}
+	vertical-align: text-top;}
 .storybox img{
-	display:inline;
+	display:inline-block;
+	float: left;
 	width:25%;
-	padding:25px;
-	margin:15px;
-	float:left;}
+	height:100%;
+	vertical-align: middle;}
 .clear{
 	overflow:auto;}
 footer{
 	float:right;
 	padding:15px;
 	margin:5px;
-	font-size:3em;
+	font-size:1.5em;
 	text-decoration:none;}
 nav{
 	display:block;
 	width:100%;
-	float:right;}
+	float:right;
+	font-size:1em;}
 nav ul{
 	list-style-type:none;}
 nav li{
