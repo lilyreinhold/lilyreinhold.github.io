@@ -9,9 +9,8 @@
 #page-header h1{
 	font-size: 5em;}
 section {
-	overflow: auto;
 	padding: 1%;
-	width:95%;}
+	margin: 0 auto;}
 article {
 	font-size:2em;
 	background-color: white;
@@ -53,3 +52,63 @@ nav li{
 	margin:10px;}
 nav li a{
 	text-decoration:none;}
+@media only screen and (max-width:1024px){
+	article{
+		margin: 0 auto;
+		width:50%;
+		height:600px;
+		font-size:1em;}
+	article p{
+		width:90%;}
+	article img{
+		display:inline-block;
+		width:100%;
+		height:100%;
+		padding-top:1%;
+		padding-bottom:1%;}
+	article:last-child{
+		overflow:hidden;}
+	footer{
+		font-size:2em;}
+@media only screen and (max-width:480px){
+	article{
+		margin: 0 auto;
+		width:40%;
+		height:200px;
+		font-size:1.5em;}
+	article p{
+		width:100%;}
+	article img{
+		display:inline-block;
+		width:100%;
+		height:50px;
+		padding-top:1%;
+		padding-bottom:1%;}
+	article:last-child{
+		overflow:hidden;}
+	footer{
+		font-size:2em;}
+@media only screen and (min-width:320px){
+
+	article{
+		margin: 0 auto;
+		display:inline-block;
+		width:90%;
+		height:200px;
+		margin:0 auto;
+		padding-top:1%;
+		padding-bottom:1%;
+		overflow:auto;
+	}
+	article p{
+		display:inline-block;
+		width:90%;}
+	article img{
+		display:inline-block;
+		width:200px;
+		height:200px;}
+	article:last-child{
+		overflow:auto;
+	}
+	}
+}

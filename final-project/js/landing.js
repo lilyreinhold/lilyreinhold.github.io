@@ -20,18 +20,16 @@
 //    moveRight();
 //})
 $(document).ready(function(){
-    var $rat = $('#rat');
+
+    var rat = $('#rat');
+
     function moveRight(){
-        $rat.animate({left:"+=500px"}, 5000, "linear", function(){moveLeft()});
+        rat.animate({left:$(window).width()}, 9000, "linear", function(){moveLeft()});
     }
+
     function moveLeft(){
-        if (parseFloat($rat.css("left")) >= $(window).width()) {
-            $rat.hide();
-            $rat.animate({left:"-400px"},2000, "linear", function(){moveRight()});
-        }
-        else {
-            $rat.animate({left:"-=400px"},4000, "linear", function(){moveRight()});
-        }
+        rat.hide();
+        rat.animate({left:"-300px"},800, "linear", function(){rat.show();moveRight()});
     }
     moveRight();
-})
+});
