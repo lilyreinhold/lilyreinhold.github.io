@@ -1,0 +1,35 @@
+.container{
+	width:100%;
+	margin:0 auto;
+	font-family:'Amatic SC', cursive;}
+#page-header{
+	overflow:hidden;
+	padding: 5px 25px;}
+h1{
+	font-size:4em;}
+h2{
+	font-size:2em;}
+.clear{
+	overflow:auto;}
+.blurb{
+	float:center;
+	padding:25px;
+	border:50px;
+	margin:50px;}
+footer{
+	float:right;
+	padding:15px;
+	margin:5px;
+	font-size:4em;}
+nav{
+	display:block;
+	width:100%;
+	float:right;}
+nav ul{
+	list-style-type:none;}
+nav li{
+	display:inline-block;
+	padding:5px;
+	margin:10px;}
+nav li a{
+	text-decoration:none;}
